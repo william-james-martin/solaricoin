@@ -1,0 +1,30 @@
+{
+  "name": "solaricoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node ./app",
+    "dev-test": "node ./solaricoin-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-james-martin/solaricoin.git"
+  },
+  "author": "william-james-martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/william-james-martin/solaricoin/issues"
+  },
+  "homepage": "https://github.com/william-james-martin/solaricoin#readme",
+  "devDependencies": {
+    "crypto-js": "^4.0.0",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.3"
+  }
+}
